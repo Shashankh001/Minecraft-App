@@ -1,8 +1,7 @@
 import socket
 import pyautogui
 
-ip = '0.0.0.0'#no need to change this ip, "0.0.0.0" will be ur pc's ip address so just change the ip in the client.py to the ip of machine running server.py
-
+IP = 'CHANGE IP' #use the ip of machine running server.py
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 f = s.connect((ip,3902))
 
