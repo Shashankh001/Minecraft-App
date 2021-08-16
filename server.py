@@ -23,7 +23,7 @@ def shit():
         if msg.decode("utf-8") == 'Start_request1':
             var = pyautogui.confirm('Do you wish to start server?')
             if var == ("OK"):
-                os.startfile('Server.lnk')#change 'Server.lnk' to your server.jar or run.bat
+                os.startfile('Server.lnk')#change 'Server.lnk' to your server.jar or run.bat (make sure tht this file is in that folder/directory)
                 
 
             else:
